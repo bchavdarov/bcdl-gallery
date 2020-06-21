@@ -1,9 +1,9 @@
 === bcdl-gallery ===
 Contributors: bchavdarov
 Tags: BCDL, bcdl, image, gallery
-Requires at least: 5.4.2
+Requires at least: 5.2
 Tested up to: 5.4.2
-Requires PHP: 7
+Requires PHP: 7.2
 License: GNU General Public License v2.0
 License URI: https://github.com/bchavdarov/bcdl-gallery/blob/master/LICENSE
 
