@@ -15,3 +15,7 @@
  */
 
 defined( 'ABSPATH' ) or die( 'Please!' );
+
+function bcdlg_main {
+	
+}
