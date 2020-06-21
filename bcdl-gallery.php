@@ -14,3 +14,4 @@
  * Domain Path:       /languages
  */
 
+defined( 'ABSPATH' ) or die( 'Please!' );
