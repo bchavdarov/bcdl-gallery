@@ -16,6 +16,17 @@
 
 defined( 'ABSPATH' ) or die( 'Please!' );
 
-function bcdlg_main {
-	
-}
+function bcdlg_main() {
+	//$content = '<p class="h1 font-weight-bold">Test of plugin bcdl-gallery</p>';
+	$content = '<div class="bcdl-gallery card" style="width: 18rem;">
+		  <img src="..." class="card-img-top" alt="...">
+		  <div class="card-body">
+		    <h5 class="card-title">Card title</h5>
+		    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p>
+		    <a href="#" class="btn btn-primary">Go somewhere</a>
+		  </div>
+		</div>';
+	return $content;
+};
+
+add_shortcode( 'bcdlgallery', 'bcdlg_main' );
